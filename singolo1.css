@@ -24,12 +24,7 @@ body {
   justify-content: space-between;
   padding-top: 12px;
 }
-/*.container-block {
-  background-color: #2d303a;
-  border-bottom: 8px solid #323645;
-  box-sizing: border-box;
-  height: 100px;
-}*/
+
 .logo-text {
   color: #ffffff;
   font-size: 2.5rem;
