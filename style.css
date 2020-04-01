@@ -41,7 +41,7 @@ html {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  margin: 55px 40px 0 0;
+  margin: 55px 40px 0 30px;
 
 }
 .nav-link {
@@ -57,14 +57,12 @@ html {
   width: 1.5em;
 }
 
-
-
 .nav-link:hover {
   color: #6665a1;
 }
 .nav-link:first-child {
   color: #dd635c;
-  margin-left: 30px;
+  
 }
 .middle {
   background-color: #e0635d;
@@ -226,6 +224,10 @@ nav {
 
 }
 
+.navigation-2 li:not(:first-child):hover {
+  color: #6665a1;
+}
+
 .filter {
   align-items: center;
   display: inline;
@@ -241,6 +243,7 @@ nav {
   cursor: pointer;
   
 }
+
 
 .galery {
   display: flex;
@@ -267,8 +270,8 @@ nav {
   border-bottom: 6px solid #dfd9d9;
   background-color: #F2F2F2;
   padding: 25px 20px 15px 112px;
-  margin: 78px 0px 0px 0px;
-  width: 1020px;
+  margin: 78px 0px 0px 442px;
+  width: 888px;
 
 }
 .about-text {
@@ -520,6 +523,7 @@ textarea::placeholder {
 .quote-info-contact {
     margin-left: -23px;
     margin-top: 24px;
+    cursor: pointer;
 }
 .quote-info-contact-location {
     letter-spacing: -0.014em;
